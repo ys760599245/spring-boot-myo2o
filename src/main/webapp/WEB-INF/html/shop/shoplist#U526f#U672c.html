@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <link href="../resources/css/shop/base/common.css" rel="stylesheet"
+          type="text/css"></link>
+    <title>商铺列表</title>
+    <meta content="initial-scale=1, maximum-scale=1" name="viewport">
+</head>
+<body>
+<div id="username">
+		<span class="gap" id="gap"><a href="/o2o/shop/ownerbind"
+                                      id="bindAccount">帐号绑定</a>&#160;|&#160;</span><a href="#"
+                                                                                      id="dologout">退出系统</a><span
+        class="gap">&#160;|&#160;</span><a
+        id="changePassword">修改密码</a>
+</div>
+
+<div id="shops">
+    <!-- Div for dynamic generation -->
+
+
+</div>
+</body>
+<script charset='utf-8'
+        src='//g.alicdn.com/sj/lib/zepto/zepto.js' type='text/javascript'></script>
+<script charset='utf-8'
+        src='//g.alicdn.com/msui/sm/0.6.2/js/sm.min.js' type='text/javascript'></script>
+<script charset='utf-8'
+        src='//g.alicdn.com/msui/sm/0.6.2/js/sm-extend.min.js' type='text/javascript'></script>
+<script src="../resources/js/shop/shoplist.js" type="text/javascript"></script>
+<script src="../resources/js/shop/base/common.js" type="text/javascript"></script>
+<script src="../resources/js/shop/base/commonutil.js"
+        type="text/javascript"></script>
+<script type="text/javascript">
+    $(document).ready(function (e) {
+        getlist(e);
+    });
+</script>
+</html>

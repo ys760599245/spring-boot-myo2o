@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <title>登录</title>
+    <meta content="initial-scale=1, maximum-scale=1" name="viewport">
+    <link href="/favicon.ico" rel="shortcut icon">
+    <meta content="yes" name="apple-mobile-web-app-capable">
+    <meta content="black" name="apple-mobile-web-app-status-bar-style">
+    <link href="//g.alicdn.com/msui/sm/0.6.2/css/sm.min.css"
+          rel="stylesheet">
+    <link href="//g.alicdn.com/msui/sm/0.6.2/css/sm-extend.min.css"
+          rel="stylesheet">
+</head>
+<body>
+<header class="bar bar-nav">
+    <h1 class="title">绑定微信</h1>
+</header>
+<div class="content">
+    <div class="list-block">
+        <ul>
+            <li>
+                <div class="item-content">
+                    <div class="item-media">
+                        <i class="icon icon-form-name"></i>
+                    </div>
+                    <div class="item-inner">
+                        <div class="item-input">
+                            <input id="username" placeholder="用户名" type="text">
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="item-content">
+                    <div class="item-media">
+                        <i class="icon icon-form-email"></i>
+                    </div>
+                    <div class="item-inner">
+                        <div class="item-input">
+                            <input id="psw" placeholder="密码" type="password">
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li id="verifyPart">
+                <div class="item-content">
+                    <div class="item-media">
+                        <i class="icon icon-form-email"></i>
+                    </div>
+                    <div class="item-inner">
+                        <label class="item-title label" for="j_captcha">验证码</label> <input
+                            class="form-control in" id="j_captcha" name="j_captcha"
+                            placeholder="验证码" type="text"/>
+                        <div class="item-input">
+                            <img alt="点击更换" id="captcha_img" onclick="changeVerifyCode(this)"
+                                 src="../Kaptcha" title="点击更换"/>
+                        </div>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </div>
+    <div class="content-block">
+        <div class="row">
+            <div class="col-50">
+                <a class="button button-big button-fill button-danger" href="#"
+                   onclick="javascript :history.back(-1);">返回</a>
+            </div>
+            <div class="col-50">
+                <a class="button button-big button-fill" href="#" id="submit">提交</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script charset='utf-8'
+        src='//g.alicdn.com/sj/lib/zepto/zepto.min.js' type='text/javascript'></script>
+<script charset='utf-8'
+        src='//g.alicdn.com/msui/sm/0.6.2/js/sm.min.js' type='text/javascript'></script>
+<script charset='utf-8'
+        src='//g.alicdn.com/msui/sm/0.6.2/js/sm-extend.min.js' type='text/javascript'></script>
+<script charset='utf-8'
+        src='../resources/js/frontend/customerbind.js' type='text/javascript'></script>
+</body>
+</html>

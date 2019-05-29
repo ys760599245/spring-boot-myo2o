@@ -1,0 +1,137 @@
+2019-05-29 09:11:47.346[main]DEBUG com.chen.myo2o.SpringBootMyo2oApplication-Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2019-05-29 09:12:20.180[main]DEBUG com.chen.myo2o.SpringBootMyo2oApplication-Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2019-05-29 09:13:32.776[main]DEBUG com.chen.myo2o.SpringBootMyo2oApplication-Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2019-05-29 09:15:00.441[main]DEBUG com.chen.myo2o.SpringBootMyo2oApplication-Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2019-05-29 09:15:41.322[main]DEBUG com.chen.myo2o.SpringBootMyo2oApplication-Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2019-05-29 09:16:13.942[main]DEBUG com.chen.myo2o.SpringBootMyo2oApplication-Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2019-05-29 09:16:25.375[main]DEBUG com.chen.myo2o.SpringBootMyo2oApplication-Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2019-05-29 09:17:12.530[main]DEBUG com.chen.myo2o.SpringBootMyo2oApplication-Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2019-05-29 09:17:36.488[main]DEBUG com.chen.myo2o.SpringBootMyo2oApplication-Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2019-05-29 09:23:37.221[main]DEBUG com.chen.myo2o.SpringBootMyo2oApplication-Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2019-05-29 09:24:16.373[main]DEBUG com.chen.myo2o.SpringBootMyo2oApplication-Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2019-05-29 09:25:44.527[main]DEBUG com.chen.myo2o.SpringBootMyo2oApplication-Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2019-05-29 09:26:00.160[main]DEBUG com.chen.myo2o.SpringBootMyo2oApplication-Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2019-05-29 09:26:51.535[main]DEBUG com.chen.myo2o.SpringBootMyo2oApplication-Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2019-05-29 09:28:55.376[main]DEBUG com.chen.myo2o.SpringBootMyo2oApplication-Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2019-05-29 09:29:31.205[main]DEBUG com.chen.myo2o.SpringBootMyo2oApplication-Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2019-05-29 09:29:51.248[http-nio-8080-exec-3]DEBUG com.chen.myo2o.dao.ProductDao.queryProductList-==>  Preparing: SELECT product_id, product_name, product_desc, img_addr, normal_price, promotion_price, priority, create_time, last_edit_time, enable_status, point, product_category_id, shop_id FROM tb_product WHERE enable_status = ? ORDER BY priority DESC LIMIT ?,?; 
+2019-05-29 09:29:51.277[http-nio-8080-exec-3]DEBUG com.chen.myo2o.dao.ProductDao.queryProductList-==> Parameters: 1(Integer), 0(Integer), 3(Integer)
+2019-05-29 09:29:51.294[http-nio-8080-exec-3]DEBUG com.chen.myo2o.dao.ProductDao.queryProductList-<==      Total: 3
+2019-05-29 09:29:51.300[http-nio-8080-exec-3]DEBUG com.chen.myo2o.dao.ProductDao.queryProductCount-==>  Preparing: SELECT count(1) FROM tb_product WHERE enable_status = ? 
+2019-05-29 09:29:51.300[http-nio-8080-exec-3]DEBUG com.chen.myo2o.dao.ProductDao.queryProductCount-==> Parameters: 1(Integer)
+2019-05-29 09:29:51.302[http-nio-8080-exec-3]DEBUG com.chen.myo2o.dao.ProductDao.queryProductCount-<==      Total: 1
+2019-05-29 09:36:29.315[main]DEBUG com.chen.myo2o.SpringBootMyo2oApplication-Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2019-05-29 09:37:22.005[main]DEBUG com.chen.myo2o.SpringBootMyo2oApplication-Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2019-05-29 09:41:52.209[main]DEBUG com.chen.myo2o.SpringBootMyo2oApplication-Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2019-05-29 09:42:52.771[main]DEBUG com.chen.myo2o.SpringBootMyo2oApplication-Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2019-05-29 09:50:16.410[main]DEBUG com.chen.myo2o.SpringBootMyo2oApplication-Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2019-05-29 09:51:19.253[main]DEBUG com.chen.myo2o.SpringBootMyo2oApplication-Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2019-05-29 09:52:38.966[main]DEBUG com.chen.myo2o.SpringBootMyo2oApplication-Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2019-05-29 09:53:56.818[main]DEBUG com.chen.myo2o.SpringBootMyo2oApplication-Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2019-05-29 09:55:04.741[main]DEBUG com.chen.myo2o.SpringBootMyo2oApplication-Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2019-05-29 09:56:55.315[main]DEBUG com.chen.myo2o.SpringBootMyo2oApplication-Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2019-05-29 09:58:05.400[main]DEBUG com.chen.myo2o.SpringBootMyo2oApplication-Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2019-05-29 09:59:51.284[main]DEBUG com.chen.myo2o.SpringBootMyo2oApplication-Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2019-05-29 10:01:07.670[main]DEBUG com.chen.myo2o.SpringBootMyo2oApplication-Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2019-05-29 10:50:17.628[main]DEBUG com.chen.myo2o.SpringBootMyo2oApplication-Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2019-05-29 10:53:59.197[main]DEBUG com.chen.myo2o.SpringBootMyo2oApplication-Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2019-05-29 10:54:09.523[http-nio-8080-exec-1]DEBUG com.chen.myo2o.dao.AreaDao.queryArea-==>  Preparing: SELECT area_id, area_name, area_desc, priority, create_time, last_edit_time FROM tb_area ORDER BY priority DESC 
+2019-05-29 10:54:09.546[http-nio-8080-exec-1]DEBUG com.chen.myo2o.dao.AreaDao.queryArea-==> Parameters: 
+2019-05-29 10:54:09.559[http-nio-8080-exec-1]DEBUG com.chen.myo2o.dao.AreaDao.queryArea-<==      Total: 4
+2019-05-29 11:03:20.646[http-nio-8080-exec-5]DEBUG com.chen.myo2o.dao.ProductDao.queryProductList-==>  Preparing: SELECT product_id, product_name, product_desc, img_addr, normal_price, promotion_price, priority, create_time, last_edit_time, enable_status, point, product_category_id, shop_id FROM tb_product WHERE enable_status = ? ORDER BY priority DESC LIMIT ?,?; 
+2019-05-29 11:03:20.647[http-nio-8080-exec-5]DEBUG com.chen.myo2o.dao.ProductDao.queryProductList-==> Parameters: 1(Integer), 0(Integer), 3(Integer)
+2019-05-29 11:03:20.654[http-nio-8080-exec-5]DEBUG com.chen.myo2o.dao.ProductDao.queryProductList-<==      Total: 3
+2019-05-29 11:03:20.654[http-nio-8080-exec-5]DEBUG com.chen.myo2o.dao.ProductDao.queryProductCount-==>  Preparing: SELECT count(1) FROM tb_product WHERE enable_status = ? 
+2019-05-29 11:03:20.654[http-nio-8080-exec-5]DEBUG com.chen.myo2o.dao.ProductDao.queryProductCount-==> Parameters: 1(Integer)
+2019-05-29 11:03:20.655[http-nio-8080-exec-5]DEBUG com.chen.myo2o.dao.ProductDao.queryProductCount-<==      Total: 1
+2019-05-29 11:06:41.140[main]DEBUG com.chen.myo2o.SpringBootMyo2oApplication-Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2019-05-29 11:08:51.038[main]DEBUG com.chen.myo2o.SpringBootMyo2oApplication-Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2019-05-29 11:08:57.824[http-nio-8080-exec-2]DEBUG com.chen.myo2o.dao.ProductDao.queryProductList-==>  Preparing: SELECT product_id, product_name, product_desc, img_addr, normal_price, promotion_price, priority, create_time, last_edit_time, enable_status, point, product_category_id, shop_id FROM tb_product WHERE enable_status = ? ORDER BY priority DESC LIMIT ?,?; 
+2019-05-29 11:08:57.847[http-nio-8080-exec-2]DEBUG com.chen.myo2o.dao.ProductDao.queryProductList-==> Parameters: 1(Integer), 0(Integer), 3(Integer)
+2019-05-29 11:08:57.862[http-nio-8080-exec-2]DEBUG com.chen.myo2o.dao.ProductDao.queryProductList-<==      Total: 3
+2019-05-29 11:08:57.866[http-nio-8080-exec-2]DEBUG com.chen.myo2o.dao.ProductDao.queryProductCount-==>  Preparing: SELECT count(1) FROM tb_product WHERE enable_status = ? 
+2019-05-29 11:08:57.866[http-nio-8080-exec-2]DEBUG com.chen.myo2o.dao.ProductDao.queryProductCount-==> Parameters: 1(Integer)
+2019-05-29 11:08:57.867[http-nio-8080-exec-2]DEBUG com.chen.myo2o.dao.ProductDao.queryProductCount-<==      Total: 1
+2019-05-29 11:09:08.162[http-nio-8080-exec-1]DEBUG com.chen.myo2o.dao.AreaDao.queryArea-==>  Preparing: SELECT area_id, area_name, area_desc, priority, create_time, last_edit_time FROM tb_area ORDER BY priority DESC 
+2019-05-29 11:09:08.162[http-nio-8080-exec-1]DEBUG com.chen.myo2o.dao.AreaDao.queryArea-==> Parameters: 
+2019-05-29 11:09:08.164[http-nio-8080-exec-1]DEBUG com.chen.myo2o.dao.AreaDao.queryArea-<==      Total: 4
+2019-05-29 11:09:27.410[main]DEBUG com.chen.myo2o.SpringBootMyo2oApplication-Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2019-05-29 11:11:15.009[main]DEBUG com.chen.myo2o.SpringBootMyo2oApplication-Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2019-05-29 11:12:36.379[main]DEBUG com.chen.myo2o.SpringBootMyo2oApplication-Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2019-05-29 11:19:29.141[main]DEBUG com.chen.myo2o.SpringBootMyo2oApplication-Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2019-05-29 11:23:29.753[main]DEBUG com.chen.myo2o.SpringBootMyo2oApplication-Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2019-05-29 11:25:30.003[main]DEBUG com.chen.myo2o.SpringBootMyo2oApplication-Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2019-05-29 11:27:49.094[main]DEBUG com.chen.myo2o.SpringBootMyo2oApplication-Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2019-05-29 11:28:58.097[main]DEBUG com.chen.myo2o.SpringBootMyo2oApplication-Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2019-05-29 11:38:57.874[main]DEBUG com.chen.myo2o.SpringBootMyo2oApplication-Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2019-05-29 11:40:25.812[main]DEBUG com.chen.myo2o.SpringBootMyo2oApplication-Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2019-05-29 11:42:23.159[main]DEBUG com.chen.myo2o.SpringBootMyo2oApplication-Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2019-05-29 11:42:37.691[main]DEBUG com.chen.myo2o.SpringBootMyo2oApplication-Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2019-05-29 11:51:02.880[main]DEBUG com.chen.myo2o.SpringBootMyo2oApplication-Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2019-05-29 11:51:13.630[http-nio-8080-exec-6]DEBUG com.chen.myo2o.dao.HeadLineDao.queryHeadLine-==>  Preparing: SELECT line_id, line_name, line_link, line_img, priority, enable_status, create_time, last_edit_time FROM tb_head_line WHERE enable_status = ? ORDER BY priority DESC 
+2019-05-29 11:51:13.653[http-nio-8080-exec-6]DEBUG com.chen.myo2o.dao.HeadLineDao.queryHeadLine-==> Parameters: 1(Integer)
+2019-05-29 11:51:13.675[http-nio-8080-exec-6]DEBUG com.chen.myo2o.dao.HeadLineDao.queryHeadLine-<==      Total: 4
+2019-05-29 11:56:51.654[main]DEBUG com.chen.myo2o.SpringBootMyo2oApplication-Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2019-05-29 11:58:58.669[main]DEBUG com.chen.myo2o.SpringBootMyo2oApplication-Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2019-05-29 11:59:23.386[main]DEBUG com.chen.myo2o.SpringBootMyo2oApplication-Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2019-05-29 12:03:35.619[main]DEBUG com.chen.myo2o.SpringBootMyo2oApplication-Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2019-05-29 12:05:28.318[main]DEBUG com.chen.myo2o.SpringBootMyo2oApplication-Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2019-05-29 12:08:26.712[main]DEBUG com.chen.myo2o.SpringBootMyo2oApplication-Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2019-05-29 12:10:12.783[main]DEBUG com.chen.myo2o.SpringBootMyo2oApplication-Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2019-05-29 12:11:30.120[main]DEBUG com.chen.myo2o.SpringBootMyo2oApplication-Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2019-05-29 12:13:26.576[main]DEBUG com.chen.myo2o.SpringBootMyo2oApplication-Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2019-05-29 12:14:07.914[http-nio-8080-exec-3]DEBUG c.c.myo2o.dao.UserShopMapDao.queryUserShopMapList-==>  Preparing: SELECT user_shop_id, user_id, shop_id, user_name, shop_name, create_time, point FROM tb_user_shop_map WHERE user_id = ? LIMIT ?,?; 
+2019-05-29 12:14:07.978[http-nio-8080-exec-3]DEBUG c.c.myo2o.dao.UserShopMapDao.queryUserShopMapList-==> Parameters: 1(Long), 0(Integer), 10(Integer)
+2019-05-29 12:14:07.998[http-nio-8080-exec-3]DEBUG c.c.myo2o.dao.UserShopMapDao.queryUserShopMapList-<==      Total: 0
+2019-05-29 12:14:08.004[http-nio-8080-exec-3]DEBUG c.c.myo2o.dao.UserShopMapDao.queryUserShopMapCount-==>  Preparing: SELECT count(1) FROM tb_user_shop_map WHERE user_id = ? 
+2019-05-29 12:14:08.004[http-nio-8080-exec-3]DEBUG c.c.myo2o.dao.UserShopMapDao.queryUserShopMapCount-==> Parameters: 1(Long)
+2019-05-29 12:14:08.006[http-nio-8080-exec-3]DEBUG c.c.myo2o.dao.UserShopMapDao.queryUserShopMapCount-<==      Total: 1
+2019-05-29 12:14:14.841[http-nio-8080-exec-2]DEBUG c.c.m.dao.UserAwardMapDao.queryUserAwardMapList-==>  Preparing: SELECT uam.user_award_id, uam.user_id, uam.award_id, uam.shop_id, uam.user_name, uam.award_name, uam.expire_time, uam.create_time, uam.used_status, uam.point, s.shop_name FROM tb_user_award_map uam LEFT JOIN tb_shop s ON uam.shop_id = s.shop_id WHERE uam.user_id = ? and uam.shop_id = ? LIMIT ?,?; 
+2019-05-29 12:14:14.842[http-nio-8080-exec-2]DEBUG c.c.m.dao.UserAwardMapDao.queryUserAwardMapList-==> Parameters: 1(Long), 1(Long), 0(Integer), 10(Integer)
+2019-05-29 12:14:14.849[http-nio-8080-exec-2]DEBUG c.c.m.dao.UserAwardMapDao.queryUserAwardMapList-<==      Total: 0
+2019-05-29 12:14:14.850[http-nio-8080-exec-2]DEBUG c.c.m.dao.UserAwardMapDao.queryUserAwardMapCount-==>  Preparing: SELECT count(1) FROM tb_user_award_map WHERE user_id = ? and shop_id = ? 
+2019-05-29 12:14:14.851[http-nio-8080-exec-2]DEBUG c.c.m.dao.UserAwardMapDao.queryUserAwardMapCount-==> Parameters: 1(Long), 1(Long)
+2019-05-29 12:14:14.852[http-nio-8080-exec-2]DEBUG c.c.m.dao.UserAwardMapDao.queryUserAwardMapCount-<==      Total: 1
+2019-05-29 12:16:20.472[http-nio-8080-exec-9]DEBUG c.c.m.dao.UserAwardMapDao.queryUserAwardMapList-==>  Preparing: SELECT uam.user_award_id, uam.user_id, uam.award_id, uam.shop_id, uam.user_name, uam.award_name, uam.expire_time, uam.create_time, uam.used_status, uam.point, s.shop_name FROM tb_user_award_map uam LEFT JOIN tb_shop s ON uam.shop_id = s.shop_id WHERE uam.user_id = ? and uam.shop_id = ? LIMIT ?,?; 
+2019-05-29 12:16:20.475[http-nio-8080-exec-9]DEBUG c.c.m.dao.UserAwardMapDao.queryUserAwardMapList-==> Parameters: 1(Long), 1(Long), 0(Integer), 10(Integer)
+2019-05-29 12:16:20.476[http-nio-8080-exec-9]DEBUG c.c.m.dao.UserAwardMapDao.queryUserAwardMapList-<==      Total: 0
+2019-05-29 12:16:20.477[http-nio-8080-exec-9]DEBUG c.c.m.dao.UserAwardMapDao.queryUserAwardMapCount-==>  Preparing: SELECT count(1) FROM tb_user_award_map WHERE user_id = ? and shop_id = ? 
+2019-05-29 12:16:20.478[http-nio-8080-exec-9]DEBUG c.c.m.dao.UserAwardMapDao.queryUserAwardMapCount-==> Parameters: 1(Long), 1(Long)
+2019-05-29 12:16:20.481[http-nio-8080-exec-9]DEBUG c.c.m.dao.UserAwardMapDao.queryUserAwardMapCount-<==      Total: 1
+2019-05-29 12:26:14.321[main]DEBUG com.chen.myo2o.SpringBootMyo2oApplication-Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2019-05-29 12:30:23.809[main]DEBUG com.chen.myo2o.SpringBootMyo2oApplication-Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2019-05-29 12:37:43.970[main]DEBUG com.chen.myo2o.SpringBootMyo2oApplication-Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2019-05-29 13:46:29.313[main]DEBUG com.chen.myo2o.SpringBootMyo2oApplication-Running with Spring Boot v1.5.12.RELEASE, Spring v5.1.7.RELEASE
+2019-05-29 13:46:51.828[main]DEBUG com.chen.myo2o.SpringBootMyo2oApplication-Running with Spring Boot v1.5.12.RELEASE, Spring v5.1.7.RELEASE
+2019-05-29 13:47:03.001[main]DEBUG com.chen.myo2o.SpringBootMyo2oApplication-Running with Spring Boot v1.5.12.RELEASE, Spring v5.1.7.RELEASE
+2019-05-29 13:51:09.446[main]DEBUG com.chen.myo2o.SpringBootMyo2oApplication-Running with Spring Boot v1.5.12.RELEASE, Spring v5.1.7.RELEASE
+2019-05-29 13:55:47.078[main]DEBUG com.chen.myo2o.SpringBootMyo2oApplication-Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2019-05-29 13:58:35.424[main]DEBUG com.chen.myo2o.SpringBootMyo2oApplication-Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2019-05-29 14:00:07.649[main]DEBUG com.chen.myo2o.SpringBootMyo2oApplication-Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2019-05-29 14:21:20.417[main]DEBUG com.chen.myo2o.SpringBootMyo2oApplication-Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2019-05-29 14:23:07.882[main]DEBUG com.chen.myo2o.SpringBootMyo2oApplication-Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2019-05-29 14:27:04.576[main]DEBUG com.chen.myo2o.SpringBootMyo2oApplication-Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2019-05-29 14:32:18.584[main]DEBUG com.chen.myo2o.SpringBootMyo2oApplication-Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2019-05-29 14:46:32.550[main]DEBUG com.chen.myo2o.SpringBootMyo2oApplication-Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2019-05-29 14:47:44.804[main]DEBUG com.chen.myo2o.SpringBootMyo2oApplication-Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2019-05-29 14:49:10.514[main]DEBUG com.chen.myo2o.SpringBootMyo2oApplication-Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2019-05-29 14:52:43.847[main]DEBUG com.chen.myo2o.SpringBootMyo2oApplication-Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2019-05-29 14:55:37.587[main]DEBUG com.chen.myo2o.SpringBootMyo2oApplication-Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2019-05-29 14:56:08.369[main]DEBUG com.chen.myo2o.SpringBootMyo2oApplication-Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2019-05-29 14:57:45.074[main]DEBUG com.chen.myo2o.SpringBootMyo2oApplication-Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2019-05-29 15:00:10.965[main]DEBUG com.chen.myo2o.SpringBootMyo2oApplication-Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2019-05-29 15:00:45.725[main]DEBUG com.chen.myo2o.SpringBootMyo2oApplication-Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2019-05-29 15:03:54.269[main]DEBUG com.chen.myo2o.SpringBootMyo2oApplication-Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2019-05-29 15:04:10.461[http-nio-8080-exec-2]DEBUG c.chen.myo2o.dao.ShopCategoryDao.queryShopCategory-==>  Preparing: SELECT shop_category_id, shop_category_name, shop_category_desc, shop_category_img, priority, create_time, last_edit_time, parent_id FROM tb_shop_category WHERE parent_id is null ORDER BY priority DESC 
+2019-05-29 15:04:10.508[http-nio-8080-exec-2]DEBUG c.chen.myo2o.dao.ShopCategoryDao.queryShopCategory-==> Parameters: 
+2019-05-29 15:04:10.531[http-nio-8080-exec-2]DEBUG c.chen.myo2o.dao.ShopCategoryDao.queryShopCategory-<==      Total: 6
+2019-05-29 15:04:10.589[http-nio-8080-exec-2]DEBUG com.chen.myo2o.dao.HeadLineDao.queryHeadLine-==>  Preparing: SELECT line_id, line_name, line_link, line_img, priority, enable_status, create_time, last_edit_time FROM tb_head_line WHERE enable_status = ? ORDER BY priority DESC 
+2019-05-29 15:04:10.590[http-nio-8080-exec-2]DEBUG com.chen.myo2o.dao.HeadLineDao.queryHeadLine-==> Parameters: 1(Integer)
+2019-05-29 15:04:10.592[http-nio-8080-exec-2]DEBUG com.chen.myo2o.dao.HeadLineDao.queryHeadLine-<==      Total: 4
+2019-05-29 15:08:00.406[main]DEBUG com.chen.myo2o.SpringBootMyo2oApplication-Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2019-05-29 15:08:09.928[http-nio-8080-exec-3]DEBUG c.chen.myo2o.dao.ShopCategoryDao.queryShopCategory-==>  Preparing: SELECT shop_category_id, shop_category_name, shop_category_desc, shop_category_img, priority, create_time, last_edit_time, parent_id FROM tb_shop_category WHERE parent_id is null ORDER BY priority DESC 
+2019-05-29 15:08:09.960[http-nio-8080-exec-3]DEBUG c.chen.myo2o.dao.ShopCategoryDao.queryShopCategory-==> Parameters: 
+2019-05-29 15:08:09.989[http-nio-8080-exec-3]DEBUG c.chen.myo2o.dao.ShopCategoryDao.queryShopCategory-<==      Total: 6
+2019-05-29 15:08:10.085[http-nio-8080-exec-3]DEBUG com.chen.myo2o.dao.HeadLineDao.queryHeadLine-==>  Preparing: SELECT line_id, line_name, line_link, line_img, priority, enable_status, create_time, last_edit_time FROM tb_head_line WHERE enable_status = ? ORDER BY priority DESC 
+2019-05-29 15:08:10.086[http-nio-8080-exec-3]DEBUG com.chen.myo2o.dao.HeadLineDao.queryHeadLine-==> Parameters: 1(Integer)
+2019-05-29 15:08:10.089[http-nio-8080-exec-3]DEBUG com.chen.myo2o.dao.HeadLineDao.queryHeadLine-<==      Total: 4

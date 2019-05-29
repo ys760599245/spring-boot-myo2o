@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.chen.myo2o.dao.ProductSellDailyDao">
+
+    <resultMap id="ProductSellDailyResultMap" type="com.chen.myo2o.entity.ProductSellDaily">
+        <result column="create_time" property="createTime"/>
+        <result column="total" property="total"/>
+        <association property="product" column="product_id" javaType="com.chen.myo2o.entity.Product">
+            <id column="product_id" property="productId"/>
+            <result column="product_name" property="productName"/>
+        </association>
+        <association property="shop" column="shop_id" javaType="com.chen.myo2o.entity.Shop">
+            <id column="shop_id" property="shopId"/>
+            <result column="shop_name" property="shopName"/>
+        </association>
+    </resultMap>
+
+    <select id="queryProductSellDailyList" resultMap="ProductSellDailyResultMap">
+        SELECT
+        psd.product_sell_daily_id,
+        psd.create_time,
+        psd.total,
+        s.shop_id,
+        s.shop_name,
+        p.product_id,
+        p.product_name
+        FROM
+        tb_product_sell_daily psd,
+        tb_shop s,
+        tb_product p
+        <where>
+            psd.shop_id = s.shop_id
+            AND psd.product_id = p.product_id
+            <!---按照店铺查询-->
+            <if test="ProductSellDailyCondition.shop!=null
+				 and ProductSellDailyCondition.shop.shopId!=null">
+                and psd.shop_id = #{ProductSellDailyCondition.shop.shopId}
+            </if>
+            <!-- 写like语句的时候 一般都会写成 like '% %' 在mybatis里面写就是应该是 like '%${name} %' 而不是
+    '%#{name} %' ${name} 是不带单引号的，而#{name} 是带单引号的 -->
+            <!--按照商品名字模糊查询-->
+            <if test="ProductSellDailyCondition.product!=null
+				 and ProductSellDailyCondition.product.productName!=null">
+                and p.product_name like '%${ProductSellDailyCondition.product.productName}%'
+            </if>
+
+            <if test="beginTime!=null and endTime !=null">
+                and data_format(psd.create_time,'%Y-%m-%d') between
+                data_format(#{beginTime},'%Y-%m-%d') and
+                data_format(#{endTime},'%Y-%m-%d')
+            </if>
+            <if test="beginTime!=null and endTime ==null">
+                and data_format(psd.create_time,'%Y-%m-%d')&gt;=
+                data_format(#{beginTime},'%Y-%m-%d')
+            </if>
+            <if test="beginTime==null and endTime !=null">
+                and data_format(psd.create_time,'%Y-%m-%d')&lt;=
+                data_format(#{endTime},'%Y-%m-%d')
+            </if>
+        </where>
+        order by psd.product_id,psd.create_time
+    </select>
+
+    <insert id="insertProductSellDaily" parameterType="com.chen.myo2o.entity.ProductSellDaily">
+  INSERT INTO tb_product_sell_daily (
+	product_id,
+	shop_id,
+	create_time,
+	total
+)(
+	SELECT
+		product_id,
+		shop_id,
+		DATE_FORMAT(create_time, '%Y-%m-%d'),
+		COUNT(product_id) AS total
+	FROM
+		tb_user_product_map
+	WHERE
+		DATE_FORMAT(create_time, '%Y-%m-%d') = DATE_SUB(CURDATE(), INTERVAL 1 DAY)
+GROUP BY product_id
+)
+
+    </insert>
+
+    <insert id="insertDefaultProductSellDaily" parameterType="com.chen.myo2o.entity.ProductSellDaily">
+INSERT INTO tb_product_sell_daily (
+	product_id,
+	shop_id,
+	create_time,
+	total
+)(
+	SELECT
+		p.product_id,
+		p.shop_id,
+		DATE_SUB(CURDATE(), INTERVAL 1 DAY),
+		0 AS total
+	FROM
+		tb_product p
+	WHERE
+		p.product_id NOT IN (
+			SELECT
+				product_id
+			FROM
+				tb_product_sell_daily
+			WHERE
+				DATE_FORMAT(create_time, '%Y-%m-%d') = DATE_SUB(CURDATE(), INTERVAL 1 DAY)
+		)
+)
+
+    </insert>
+</mapper>

@@ -1,0 +1,6 @@
+2019/05/27 21:33:34.748 INFO  [main] [SpringBootMyo2oApplication:50] : Starting SpringBootMyo2oApplication on DESKTOP-4M28N93 with PID 8168 (C:\spring-boot-myo2o-master\target\classes started by 760599245 in C:\spring-boot-myo2o-master)
+2019/05/27 21:33:34.752 INFO  [main] [SpringBootMyo2oApplication:675] : No active profile set, falling back to default profiles: default
+2019/05/27 21:33:36.469 INFO  [main] [StandardService:173] : Starting service [Tomcat]
+2019/05/27 21:33:36.469 INFO  [main] [StandardEngine:173] : Starting Servlet engine: [Apache Tomcat/9.0.19]
+2019/05/27 21:33:36.555 INFO  [main] [[/o2o]:173] : Initializing Spring embedded WebApplicationContext
+2019/05/27 21:33:37.642 INFO  [main] [SpringBootMyo2oApplication:59] : Started SpringBootMyo2oApplication in 3.418 seconds (JVM running for 4.61)

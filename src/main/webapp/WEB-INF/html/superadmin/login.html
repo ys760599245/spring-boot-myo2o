@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+    <link href="../resources/js/superadmin/common/easyui/themes/default/easyui.css" rel="stylesheet"
+          type="text/css">
+    <link href="../resources/js/superadmin/common/easyui/themes/icon.css" rel="stylesheet"
+          type="text/css">
+    <script src="../resources/js/superadmin/common/jquery-1.4.4.min.js"
+            type="text/javascript"></script>
+    <script src="../resources/js/superadmin/common/easyui/js/jquery.easyui.min.js"
+            type="text/javascript"></script>
+    <script src="../resources/js/superadmin/common/easyui/js/easyui-lang-zh_CN.js"
+            type="text/javascript"></script>
+    <script src="../resources/js/shop/base/commonutil.js"
+            type="text/javascript"></script>
+    <link href="../resources/css/superadmin/common/tooltip-form-style.css"
+          rel="stylesheet"></link>
+    <script src="../resources/js/superadmin/common/errorhandle.js"
+            type="text/javascript"></script>
+    <script src="../resources/js/superadmin/login.js" type="text/javascript"></script>
+    <title>登录页</title>
+</head>
+<body>
+<div id="login" style="padding: 5px; width: 400px; height: 220px;">
+    <table id="loginTable" onkeydown="if(event.keyCode==13){doLogin();}">
+        <tr>
+            <td align="right"><b style="font-size:12px；">用户名：</b></td>
+            <td><input class="easyui-validatebox" id="userName" maxlength="20"
+                       required="true" style="width: 200px;" type="text"></input></td>
+        </tr>
+        <tr>
+            <td align="right"><b style="font: 12px">密码：</b></td>
+            <td><input class="easyui-validatebox" id="password"
+                       maxlength="20" required="true" style="width: 200px;" type="password"></input></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td id="login_msg" style="color: red; font: 12px">&nbsp;</td>
+        </tr>
+        <tr>
+            <td align="center" colspan="2"><a class="easyui-linkbutton"
+                                              href="#" icon="icon-ok" onclick="doLogin();">确定</a>
+                <a class="easyui-linkbutton" href="#" icon="icon-redo"
+                   onclick="doReset();">重置</a></td>
+        </tr>
+    </table>
+</div>
+</body>
+</html>

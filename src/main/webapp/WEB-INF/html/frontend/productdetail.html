@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <title>商品详情</title>
+    <meta content="initial-scale=1, maximum-scale=1" name="viewport">
+    <link href="/favicon.ico" rel="shortcut icon">
+    <meta content="yes" name="apple-mobile-web-app-capable">
+    <meta content="black" name="apple-mobile-web-app-status-bar-style">
+    <link href="//g.alicdn.com/msui/sm/0.6.2/css/sm.min.css"
+          rel="stylesheet">
+    <link href="//g.alicdn.com/msui/sm/0.6.2/css/sm-extend.min.css"
+          rel="stylesheet">
+    <link href="../resources/css/frontend/productdetail/productdetail.css"
+          rel="stylesheet">
+</head>
+<body>
+<div class="page-group">
+    <div class="page">
+        <header class="bar bar-nav">
+            <a class="button button-link button-nav pull-left" data-transition='slide-out' external
+               href="#" onClick="javascript :history.back(-1);">
+                <span class="icon icon-left"></span> 返回
+            </a>
+            <h1 class="title">商品详情</h1>
+        </header>
+        <nav class="bar bar-tab">
+            <a class="tab-item" external href="/o2o/frontend/index"> <span
+                    class="icon icon-home"></span> <span class="tab-label">首页</span>
+            </a> <a class="tab-item" href="#" id="me"> <span
+                class="icon icon-me"></span> <span class="tab-label">我</span>
+        </a>
+        </nav>
+        <div class="content infinite-scroll infinite-scroll-bottom"
+             data-distance="100">
+            <!-- 这里是页面内容区 -->
+            <div class="shop-detail-dev">
+                <div class="card">
+                    <div class="card-header color-white no-border no-padding"
+                         valign="bottom">
+                        <img alt="" class='card-cover' id="product-img" src="">
+                    </div>
+                    <div class="card-content">
+                        <div class="card-content-inner">
+                            <p class="color-gray">
+                                <span id="product-time">2015/01/15</span>
+                            </p>
+                            <p id="product-name"></p>
+                            <p id="product-desc"></p>
+                        </div>
+                    </div>
+                    <div class="card-footer" id="imgList">
+                        <!-- <a href="#" class="link">赞</a> -->
+                        <!-- <a href="#" class="link">更多</a> -->
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="list-div"></div>
+        </div>
+    </div>
+
+    <div class="panel-overlay"></div>
+    <div class="panel panel-right panel-reveal" id="panel-left-demo">
+        <div class="content-block">
+            <p>
+                <a class="close-panel" href="/o2o/frontend/myrecord">消费记录</a>
+            </p>
+            <p>
+                <a class="close-panel" href="/o2o/frontend/mypoint">我的积分</a>
+            </p>
+            <p>
+                <a class="close-panel" href="/o2o/frontend/pointrecord">积分兑换记录</a>
+            </p>
+            <!-- Click on link with "close-panel" class will close panel -->
+        </div>
+    </div>
+</div>
+
+
+<script charset='utf-8'
+        src='//g.alicdn.com/sj/lib/zepto/zepto.min.js' type='text/javascript'></script>
+<script charset='utf-8'
+        src='//g.alicdn.com/msui/sm/0.6.2/js/sm.min.js' type='text/javascript'></script>
+<script charset='utf-8'
+        src='//g.alicdn.com/msui/sm/0.6.2/js/sm-extend.min.js' type='text/javascript'></script>
+<script charset='utf-8'
+        src='../resources/js/common/commonutil.js' type='text/javascript'></script>
+<script charset='utf-8'
+        src='../resources/js/frontend/productdetail.js' type='text/javascript'></script>
+</body>
+</html>
